@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MyPortfolio</div>
+
+        <div class="menu-btn">☰</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Rudra Bokil</h1>
+            <p>
+                I am a passionate student interested in technology,
+                programming and building useful digital solutions.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="resume.pdf" download class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>
+                I am a college student pursuing my degree in Computer Science.
+                I enjoy learning new technologies, solving problems and
+                developing creative projects. My goal is to improve my
+                technical skills and gain practical experience.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>College Degree</h3>
+                <p>Indian Institute of Technology, Bangalore</p>
+                <p>2026 - Present</p>
+                <p>BBA (DBE)</p>
+            </div>
+
+            <div class="card">
+                <h3>College Degree</h3>
+                <p>Vishwakarma Institute of Technology, Pune</p>
+                <p>2024 - Present</p>
+                <p>Computer Engineering (Software Engineering)</p>
+            </div>
+
+            <div class="card">
+                <h3>Higher Secondary</h3>
+                <p>Namo Rims International School, Pune</p>
+                <p>2022 - 2024</p>
+                <p>Science Stream</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <p style="text-align: center;">Python</p>
+            </div>
+
+            <div class="card">
+                <p style="text-align: center;">Java</p>
+            </div>
+
+            <div class="card">
+                <p style="text-align: center;">Machine learning</p>
+            </div>
+
+            <div class="card">
+                <p style="text-align: center;">Big Data Analytics</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Web AI-Powered Developer Profile Analyzer</h3>
+                <p style="text-align:justify;">Built an AI-powered recruitment platform that evaluates and ranks candidates using resumes, GitHub repositories,and coding profiles. Integrated multiple developer-profile APIs and designed a custom scoring engine to assess technical skills, project quality, and coding proficiency. Automated strengths/weaknesses analysis and candidate recommendations.</p>
+            </div>
+
+            <div class="card">
+                <h3>Social Media-Based Citizen Grievance Management System</h3>
+                <p style="text-align:justify;">Led a team of 4 to develop a platform that aggregates and categorizes civic issues from social media, including power outages and water supply complaints. Built backend APIs and database modules for issue tracking, search, and retrieval using PHP, Python, and SQL. Implemented keyword-based social media issue discovery and responsive dashboards for citizen reporting and monitoring.</p>
+            </div>
+
+            <div class="card">
+                <h3>Campus Marketplace for Students</h3>
+                <p style="text-align:justify;">Developed a campus marketplace platform for students to buy and sell notes, hardware components, and other reusable items.Built backend services using Firebase for authentication, real-time data storage, and item management. Created responsive user interfaces with React and Tailwind CSS and collaborated on UI/UX design.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form class="contact-form" id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="form-message"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Rudra Bokil. All Rights Reserved.</p>
+    </footer>
+
+   
+
+</body>
+</html>
